@@ -15,6 +15,8 @@ ul {
 
 li {
     display: inline;
+    padding: 20px;
+
 }
 
 nav{
@@ -29,18 +31,24 @@ main {
 
 #aboutme {
     display: flex;
-    height: 200px;
+    /* height: 200px; */
 }
 
 #aboutme p {
     display: flex;
-    width: 80%;
+    align-items: center;
+    margin: 30px;
 }
 
 aside {
     max-width: 200px;
     min-width: 200px;
-    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    font-size: 40px;
+    margin: 30px;
 
 }
 
@@ -57,4 +65,10 @@ aside {
 
 footer {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 20px;
 }
