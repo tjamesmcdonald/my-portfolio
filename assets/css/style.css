@@ -31,7 +31,6 @@ main {
 
 #aboutme {
     display: flex;
-    /* height: 200px; */
 }
 
 #aboutme p {
@@ -44,11 +43,12 @@ aside {
     max-width: 200px;
     min-width: 200px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-end;
     padding: 20px;
     font-size: 40px;
     margin: 30px;
+    border-right: 5px solid blue;
 
 }
 
@@ -61,6 +61,9 @@ aside {
 .card {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 40%;
+    padding: 10px;
 }
 
 footer {
@@ -71,4 +74,32 @@ footer {
 
 p {
     font-size: 20px;
+}
+
+.card p {
+    display: flex;
+    border-top: 2px solid black;
+    justify-content: center;
+
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#focus {
+    display: flex;
+    min-width: 100%;
+    padding: 0px;
+    align-content: center;
+}
+
+#portrait {
+    min-width: 100%;
+}
+
+img {
+    min-width: 100%;
 }
