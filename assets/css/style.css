@@ -102,6 +102,10 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    h1 {
+        display: flex;
+        align-items: center;
+    }
     #aboutme {
         flex-direction: column;
         align-items: center;
@@ -116,6 +120,12 @@ img {
         flex-direction: column;
         align-items: center;
     }
+
+    aside {
+        border-right: 0px;
+        border-bottom: 3px solid blue;
+        justify-content: center;
+    } 
 
     li {
         display: flex;
