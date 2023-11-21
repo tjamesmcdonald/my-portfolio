@@ -1,5 +1,6 @@
 header {
     display: flex;
+    background-color: lightskyblue;
 }
 
 ul {
@@ -16,11 +17,13 @@ li {
 nav{
     display: flex;
     justify-content: flex-end;
+    background-color: lightgray;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
+    background-color: lightblue;
 }
 
 #aboutme {
