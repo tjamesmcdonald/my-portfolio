@@ -28,6 +28,10 @@ WHEN I resize the page or view the site on various screens and devices
 
 THEN I am presented with a responsive layout that adapts to my viewport
 
+## Deployment
+Page deployed at: https://tjamesmcdonald.github.io/my-portfolio/
+
+Repo at: https://github.com/tjamesmcdonald/my-portfolio
 
 ## Credits
 Images were pulled from a google search for placeholder images:
