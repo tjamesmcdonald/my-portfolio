@@ -33,6 +33,8 @@ Page deployed at: https://tjamesmcdonald.github.io/my-portfolio/
 
 Repo at: https://github.com/tjamesmcdonald/my-portfolio
 
+Screenshot: ![Screenshot](assets/images/Screenshot.png)
+
 ## Credits
 Images were pulled from a google search for placeholder images:
 
